@@ -1,0 +1,124 @@
+:root {
+    --navy-deep: #10243E;
+    --navy-mid: #1B3358;
+    --accent: #E8A33D;
+    --accent-dark: #C97F17;
+    --bg-light: #F4F7FB;
+    --text-dark: #1B1F27;
+}
+
+/* Navbar */
+.navbar.bg-primary {
+    background-color: var(--navy-deep) !important;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link.active {
+    color: var(--accent) !important;
+}
+
+/* Home / Hero */
+.jumbotron {
+    background-color: var(--navy-deep);
+    padding-top: 2rem;
+    text-align: center;
+    color: #ffffff;
+}
+
+.jumbotron .lead {
+    color: #cbd5e1;
+}
+
+.jumbotron img {
+    border: 4px solid var(--accent);
+}
+
+/* About */
+#about {
+    background-color: var(--bg-light);
+    padding-top: 2rem;
+    text-align: center;
+    color: var(--text-dark);
+}
+
+/* Judul section dengan garis aksen di bawahnya */
+#about h2,
+#project h2,
+#contact h2 {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+}
+
+#about h2::after,
+#project h2::after,
+#contact h2::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 48px;
+    height: 3px;
+    background-color: var(--accent);
+}
+
+/* Project */
+#project {
+    background-color: var(--navy-mid);
+    padding-top: 2rem;
+    text-align: center;
+    color: #ffffff;
+}
+
+#project .card {
+    border: none;
+    border-top: 3px solid var(--accent);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+#project .card-img-top {
+    height: 180px;
+    object-fit: cover;
+    background-color: #F4F7FB;
+}
+
+#project .card-text {
+    color: var(--text-dark);
+}
+
+/* Contact */
+#contact {
+    background-color: var(--navy-deep);
+    padding-top: 2rem;
+    text-align: center;
+    color: #ffffff;
+}
+
+#contact .form-label {
+    color: #ffffff;
+}
+
+#contact .form-control:focus {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 0.25rem rgba(232, 163, 61, 0.35);
+}
+
+/* Tombol utama */
+.btn-primary {
+    background-color: var(--accent);
+    border-color: var(--accent);
+    color: var(--text-dark);
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: var(--accent-dark);
+    border-color: var(--accent-dark);
+    color: var(--text-dark);
+}
+
+/* Footer */
+footer.bg-dark {
+    background-color: var(--navy-deep) !important;
+}

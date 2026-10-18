@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220">
+  <rect width="400" height="220" fill="#F4F7FB"/>
+  <rect width="400" height="24" fill="#10243E"/>
+  <circle cx="14" cy="12" r="4" fill="#E8A33D"/>
+  <circle cx="28" cy="12" r="4" fill="#6b7280"/>
+  <circle cx="42" cy="12" r="4" fill="#6b7280"/>
+  <!-- KPI cards -->
+  <g>
+    <rect x="20" y="38" width="80" height="42" rx="4" fill="#1B3358"/>
+    <rect x="30" y="46" width="40" height="7" rx="2" fill="#8ea3c2"/>
+    <rect x="30" y="60" width="28" height="10" rx="2" fill="#E8A33D"/>
+  </g>
+  <g>
+    <rect x="110" y="38" width="80" height="42" rx="4" fill="#1B3358"/>
+    <rect x="120" y="46" width="40" height="7" rx="2" fill="#8ea3c2"/>
+    <rect x="120" y="60" width="28" height="10" rx="2" fill="#E8A33D"/>
+  </g>
+  <g>
+    <rect x="200" y="38" width="80" height="42" rx="4" fill="#1B3358"/>
+    <rect x="210" y="46" width="40" height="7" rx="2" fill="#8ea3c2"/>
+    <rect x="210" y="60" width="28" height="10" rx="2" fill="#E8A33D"/>
+  </g>
+  <g>
+    <rect x="290" y="38" width="86" height="42" rx="4" fill="#1B3358"/>
+    <rect x="300" y="46" width="40" height="7" rx="2" fill="#8ea3c2"/>
+    <rect x="300" y="60" width="28" height="10" rx="2" fill="#E8A33D"/>
+  </g>
+  <!-- bar chart -->
+  <rect x="20" y="92" width="220" height="112" fill="#ffffff" stroke="#dbe2ea"/>
+  <rect x="40" y="150" width="20" height="44" fill="#10243E"/>
+  <rect x="72" y="130" width="20" height="64" fill="#E8A33D"/>
+  <rect x="104" y="164" width="20" height="30" fill="#10243E"/>
+  <rect x="136" y="118" width="20" height="76" fill="#E8A33D"/>
+  <rect x="168" y="142" width="20" height="52" fill="#10243E"/>
+  <rect x="200" y="106" width="20" height="88" fill="#E8A33D"/>
+  <!-- pie chart -->
+  <rect x="252" y="92" width="124" height="112" fill="#ffffff" stroke="#dbe2ea"/>
+  <circle cx="314" cy="148" r="40" fill="#1B3358"/>
+  <path d="M314 148 L314 108 A40 40 0 0 1 350 168 Z" fill="#E8A33D"/>
+  <path d="M314 148 L350 168 A40 40 0 0 1 300 186 Z" fill="#8ea3c2"/>
+</svg>
